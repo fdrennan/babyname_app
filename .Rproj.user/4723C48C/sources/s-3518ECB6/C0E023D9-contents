@@ -50,8 +50,8 @@ babynames <-
 ui <- dashboardPage(
   dashboardHeader(),
   dashboardSidebar(
-    textInput("name", "Find string:", "Freddy"),
-    textInput("name_not", "Remove string:", "ye"),
+    textInput("name", "Find string:", "Freddy, Meggan"),
+    textInput("name_not", "Remove string:", "ye, orangejello"),
     textInput("min_year", "Enter a minimum year:", "1900"),
     textInput("max_year", "Enter a maximum year:", "2010"),
     numericInput("top_n", "Select top N:", 5, min = 1, max = 50),
