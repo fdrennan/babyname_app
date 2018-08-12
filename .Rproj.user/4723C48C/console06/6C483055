@@ -84,3 +84,16 @@ remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5) 
 To github.com:fdrennan/babyname_app.git
    638b5f7..cb8b18e  master -> master
 ]0;~/Documents/programming/rProjects/babynames[0;32mfreddydrennan@MNG-IT-M-165[0m:~/Documents/programming/rProjects/bbabynames[0;33m (master)[0m$ [K[A[0;32mfreddydrennan@MNG-IT-M-165[0m:~/Documents/programming/rProjects/babynames[0;33m (mmaster)[0m$ git add --all
+]0;~/Documents/programming/rProjects/babynames[0;32mfreddydrennan@MNG-IT-M-165[0m:~/Documents/programming/rProjects/babynames[0;33m (master) [0m$ git commit -m 'update'
+[master b6139b5] update
+ 6 files changed, 29 insertions(+), 11 deletions(-)
+]0;~/Documents/programming/rProjects/babynames[0;32mfreddydrennan@MNG-IT-M-165[0m:~/Documents/programming/rProjects/babynames[0;33m (master) [0m$ git push origin master
+Counting objects: 13, done.
+Delta compression using up to 4 threads.
+Compressing objects:   7% (1/13)   Compressing objects:  15% (2/13)   Compressing objects:  23% (3/13)   Compressing objects:  30% (4/13)   Compressing objects:  38% (5/13)   Compressing objects:  46% (6/13)   Compressing objects:  53% (7/13)   Compressing objects:  61% (8/13)   Compressing objects:  69% (9/13)   Compressing objects:  76% (10/13)   Compressing objects:  84% (11/13)   Compressing objects:  92% (12/13)   Compressing objects: 100% (13/13)   Compressing objects: 100% (13/13), done.
+Writing objects:   7% (1/13)   Writing objects:  15% (2/13)   Writing objects:  23% (3/13)   Writing objects:  30% (4/13)   Writing objects:  38% (5/13)   Writing objects:  46% (6/13)   Writing objects:  53% (7/13)   Writing objects:  61% (8/13)   Writing objects:  69% (9/13)   Writing objects:  76% (10/13)   Writing objects:  84% (11/13)   Writing objects:  92% (12/13)   Writing objects: 100% (13/13)   Writing objects: 100% (13/13), 1.56 KiB | 0 bytes/s, done.
+Total 13 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
+To github.com:fdrennan/babyname_app.git
+   cb8b18e..b6139b5  master -> master
+]0;~/Documents/programming/rProjects/babynames[0;32mfreddydrennan@MNG-IT-M-165[0m:~/Documents/programming/rProjects/babynames[0;33m (master) [0m$ git add --all
