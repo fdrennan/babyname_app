@@ -50,14 +50,20 @@ babynames <-
 ui <- dashboardPage(
   dashboardHeader(),
   dashboardSidebar(
+    h6('Separate strings with commas: can be blank.'),
     textInput("name", "Find string:", "Freddy, Meggan"),
+    h6('Separate strings with commas: can be blank.'),
     textInput("name_not", "Remove string:", "ye, orangejello"),
     textInput("min_year", "Enter a minimum year:", "1900"),
     textInput("max_year", "Enter a maximum year:", "2010"),
+    h6('Selects N most popular names.'),
     h6('Max 100 for top N, be patient for large values'),
     numericInput("top_n", "Select top N:", 20, min = 1, max = 100),
+    h6('Remove names which occur more than X times.'),
     numericInput("top_number", "Number <= :", 6000000, min = 1, max = Inf),
+    h6('Remove names which occur less than X times.'),
     numericInput("bottom_number", "Number >= :", 0, min = 1, max = Inf),
+    h6('First time on load it\'s blank. Hit run!'),
     actionButton("do", "Hit me to run!")
   ),
   dashboardBody(

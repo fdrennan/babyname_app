@@ -152,3 +152,7 @@ remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6) 
 To github.com:fdrennan/babyname_app.git
    4a39183..4494abe  master -> master
 ]0;~/Documents/programming/rProjects/babynames[0;32mfreddydrennan@MNG-IT-M-165[0m:~/Documents/programming/rProjects/babynames[0;33m (master) [0m$ git add ---[Kall
+]0;~/Documents/programming/rProjects/babynames[0;32mfreddydrennan@MNG-IT-M-165[0m:~/Documents/programming/rProjects/babynames[0;33m (master) [0m$ git commit -m 'update'
+[master 5e30b7e] update
+ 5 files changed, 22 insertions(+), 7 deletions(-)
+]0;~/Documents/programming/rProjects/babynames[0;32mfreddydrennan@MNG-IT-M-165[0m:~/Documents/programming/rProjects/babynames[0;33m (master) [0m$ git d[Kadd --all
