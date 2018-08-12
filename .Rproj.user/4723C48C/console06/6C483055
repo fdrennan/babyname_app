@@ -50,3 +50,19 @@ Total 31 (delta 0), reused 0 (delta 0)
 To github.com:fdrennan/babyname_app.git
    2fd3dfb..b49a20f  master -> master
 ]0;~/Documents/programming/rProjects/babynames[0;32mfreddydrennan@MNG-IT-M-165[0m:~/Documents/programming/rProjects/babynames[0;33m (master)[0m$ git add --a ll
+]0;~/Documents/programming/rProjects/babynames[0;32mfreddydrennan@MNG-IT-M-165[0m:~/Documents/programming/rProjects/babynames[0;33m (master)[0m$ git commti[K[Kit  -m 'update'
+[master 638b5f7] update
+ 4 files changed, 36 insertions(+), 22 deletions(-)
+ delete mode 100644 .Rproj.user/4723C48C/sources/s-3518ECB6/3E535E6A
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ rename babynames/app.R => app.R (100%)
+]0;~/Documents/programming/rProjects/babynames[0;32mfreddydrennan@MNG-IT-M-165[0m:~/Documents/programming/rProjects/babynames[0;33m (master)[0m$ git push or igin master
+Counting objects: 11, done.
+Delta compression using up to 4 threads.
+Compressing objects:  10% (1/10)   Compressing objects:  20% (2/10)   Compressing objects:  30% (3/10)   Compressing objects:  40% (4/10)   Compressing objects:  50% (5/10)   Compressing objects:  60% (6/10)   Compressing objects:  70% (7/10)   Compressing objects:  80% (8/10)   Compressing objects:  90% (9/10)   Compressing objects: 100% (10/10)   Compressing objects: 100% (10/10), done.
+Writing objects:   9% (1/11)   Writing objects:  18% (2/11)   Writing objects:  27% (3/11)   Writing objects:  36% (4/11)   Writing objects:  45% (5/11)   Writing objects:  54% (6/11)   Writing objects:  63% (7/11)   Writing objects:  72% (8/11)   Writing objects:  81% (9/11)   Writing objects:  90% (10/11)   Writing objects: 100% (11/11)   Writing objects: 100% (11/11), 2.05 KiB | 0 bytes/s, done.
+Total 11 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To github.com:fdrennan/babyname_app.git
+   b49a20f..638b5f7  master -> master
+]0;~/Documents/programming/rProjects/babynames[0;32mfreddydrennan@MNG-IT-M-165[0m:~/Documents/programming/rProjects/babynames[0;33m (master)[0m$ [K[0;32mfreddydrennan@MNG-IT-M-165[0m:~/Documents/programming/rProjects/babynames[00;33m (master)[0m$ git add --all
