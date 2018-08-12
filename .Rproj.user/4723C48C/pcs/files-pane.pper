@@ -1,0 +1,9 @@
+{
+    "path" : "~/Documents/programming/rProjects/babynames",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

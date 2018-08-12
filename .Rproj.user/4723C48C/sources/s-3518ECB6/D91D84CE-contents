@@ -1,0 +1,10 @@
+library(babynames)
+babynames = babynames::babynames
+
+string = c('Freddy', 'Megan')
+
+
+
+
+
+selected = babynames[is_in(c("freddy"), babynames),]
