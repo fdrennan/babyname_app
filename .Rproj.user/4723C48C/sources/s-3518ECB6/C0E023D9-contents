@@ -54,7 +54,8 @@ ui <- dashboardPage(
     textInput("name_not", "Remove string:", "ye, orangejello"),
     textInput("min_year", "Enter a minimum year:", "1900"),
     textInput("max_year", "Enter a maximum year:", "2010"),
-    numericInput("top_n", "Select top N:", 20, min = 1, max = 50),
+    h6('Max 100 for top N, be patient for large values'),
+    numericInput("top_n", "Select top N:", 20, min = 1, max = 100),
     numericInput("top_number", "Number <= :", 6000000, min = 1, max = Inf),
     numericInput("bottom_number", "Number >= :", 0, min = 1, max = Inf),
     actionButton("do", "Hit me to run!")
