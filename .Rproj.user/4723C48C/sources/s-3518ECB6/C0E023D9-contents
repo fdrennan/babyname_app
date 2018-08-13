@@ -51,9 +51,9 @@ ui <- dashboardPage(
   dashboardHeader(),
   dashboardSidebar(
     # h6('Separate strings with commas: can be blank.'),
-    textInput("name", "Find string:", "Freddy, Meggan"),
+    textInput("name", "Find string:", ""),
     # h6('Separate strings with commas: can be blank.'),
-    textInput("name_not", "Remove string:", "ye, orangejello"),
+    textInput("name_not", "Remove string:", ""),
     textInput("min_year", "Enter a minimum year:", "1900"),
     textInput("max_year", "Enter a maximum year:", "2010"),
     # h6('Selects N most popular names.'),
@@ -68,6 +68,7 @@ ui <- dashboardPage(
   ),
   dashboardBody(
     plotlyOutput("plot"),
+    plotlyOutput("plot_prop"),
     dataTableOutput('table')
   )
 )
@@ -151,6 +152,26 @@ server <- function(input, output) {
     {
       data_from_output = data_input()
       
+      gg_plot <- data_from_output %>% 
+        ggplot() +
+        aes(x = year, y = prop, col = name) +
+        geom_path() 
+      
+      if(n_distinct(data_from_output$sex) == 2) {
+        gg_plot =
+          gg_plot +
+          facet_grid(~ sex)
+      }
+      
+      ggplotly(gg_plot)
+      
+    }
+  )
+  
+  output$plot_prop <- renderPlotly(
+    {
+      data_from_output = data_input()
+     
       gg_plot <- data_from_output %>% 
         ggplot() +
         aes(x = year, y = n, col = name) +
