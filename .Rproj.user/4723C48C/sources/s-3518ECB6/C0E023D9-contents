@@ -50,6 +50,8 @@ babynames <-
 ui <- dashboardPage(
   dashboardHeader(),
   dashboardSidebar(
+    # h6('First time on load it\'s blank. Hit run to refresh!'),
+    actionButton("do", "Hit me to run!"),
     # h6('Separate strings with commas: can be blank.'),
     textInput("name", "Find string:", ""),
     # h6('Separate strings with commas: can be blank.'),
@@ -62,9 +64,7 @@ ui <- dashboardPage(
     # h6('Remove names which occur more than X times.'),
     numericInput("top_number", "Number <= :", 6000000, min = 1, max = Inf),
     # h6('Remove names which occur less than X times.'),
-    numericInput("bottom_number", "Number >= :", 0, min = 1, max = Inf),
-    # h6('First time on load it\'s blank. Hit run!'),
-    actionButton("do", "Hit me to run!")
+    numericInput("bottom_number", "Number >= :", 0, min = 1, max = Inf)
   ),
   dashboardBody(
     plotlyOutput("plot"),
